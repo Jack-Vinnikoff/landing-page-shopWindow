@@ -1,6 +1,5 @@
 
 #files ignore to GIT
 *.txt
-www/js/
-node_modules/
+*.xml
 .idea/
