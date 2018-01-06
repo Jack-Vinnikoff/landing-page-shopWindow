@@ -29,4 +29,57 @@
   url('fonts/pfdintextcondpromedium.svg#pfdintextcondpromedium') format('svg');
 }
 
+.bold {
+  font-family:"pfdintextcondprobold";
+}
+
+.med {
+  font-family: "pfdintextcondpromedium";
+}
+.light {
+  font-family: "pfdintextcondprolight";
+}
+
+//======================== Шапка ========================
+header {
+  color: #666666;
+  padding-top: 25px;
+  .descript {
+    h4 {
+      .med;
+      text-transform: uppercase;
+    }
+    h5 {
+      .light;
+      font-size: 15px;
+    }
+  }
+  .phone_number {
+    text-align: right;
+    h3 {
+      margin-top: 7px;
+    }
+    a {
+      font-size: 25px;
+      .med;
+      color: #666666;
+      &:hover {
+        text-decoration: none;
+      }
+      display: inline-block;
+      &:before {
+        vertical-align: middle;
+        margin-right: 5px;
+        content: "";
+        width: 20px;
+        height: 20px;
+        background: url(../img/call.png) no-repeat center center;
+        display: inline-block;
+      }
+    }
+    p {
+      .light;
+    }
+  }
+}
 

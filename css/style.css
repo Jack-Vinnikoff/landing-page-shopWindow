@@ -13,3 +13,51 @@
   src: url('fonts/pfdintextcondpromedium.eot');
   src: url('fonts/pfdintextcondpromedium.eot') format('embedded-opentype'), url('fonts/pfdintextcondpromedium.woff2') format('woff2'), url('fonts/pfdintextcondpromedium.woff') format('woff'), url('fonts/pfdintextcondpromedium.ttf') format('truetype'), url('fonts/pfdintextcondpromedium.svg#pfdintextcondpromedium') format('svg');
 }
+.bold {
+  font-family: "pfdintextcondprobold";
+}
+.med {
+  font-family: "pfdintextcondpromedium";
+}
+.light {
+  font-family: "pfdintextcondprolight";
+}
+header {
+  color: #666666;
+  padding-top: 25px;
+}
+header .descript h4 {
+  font-family: "pfdintextcondpromedium";
+  text-transform: uppercase;
+}
+header .descript h5 {
+  font-family: "pfdintextcondprolight";
+  font-size: 15px;
+}
+header .phone_number {
+  text-align: right;
+}
+header .phone_number h3 {
+  margin-top: 7px;
+}
+header .phone_number a {
+  font-size: 25px;
+  font-family: "pfdintextcondpromedium";
+  color: #666666;
+  display: inline-block;
+}
+header .phone_number a:hover {
+  text-decoration: none;
+}
+header .phone_number a:before {
+  vertical-align: middle;
+  margin-right: 5px;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(../img/call.png) no-repeat center center;
+  display: inline-block;
+}
+header .phone_number p {
+  font-family: "pfdintextcondprolight";
+}
