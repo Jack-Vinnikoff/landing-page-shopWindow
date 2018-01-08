@@ -39,11 +39,19 @@
 .light {
   font-family: "pfdintextcondprolight";
 }
+//======================== Базовые настройки ========================
+a:hover,
+a:focus,
+a:visited,
+a:active {
+  text-decoration: none;
+}
 
 //======================== Шапка ========================
 header {
   color: #666666;
   padding-top: 25px;
+  padding-bottom: 20px;
   .descript {
     h4 {
       .med;
@@ -83,3 +91,21 @@ header {
   }
 }
 
+//================================= Навигация ====================//
+nav {
+  background-color: #fafdfa;
+  ul.list-inline a {
+    display: inline-block;
+    text-transform: uppercase;
+    padding:20px 10px;
+    color: #666666;
+    &:hover {
+      text-decoration: none;
+      background-color: #67cc67;
+      color:#fff;
+    }
+  }
+  ul.list-inline {
+    margin-bottom: 0;
+  }
+}
