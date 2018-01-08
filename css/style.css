@@ -76,6 +76,10 @@ nav ul.list-inline a {
   text-transform: uppercase;
   padding: 20px 10px;
   color: #666666;
+  font-family: "pfdintextcondprolight";
+  -moz-transition: all 0.1s 0.2s ease;
+  -o-transition: all 0.1s 0.2s ease;
+  -webkit-transition: all 0.1s 0.2s ease;
 }
 nav ul.list-inline a:hover {
   text-decoration: none;
