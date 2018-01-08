@@ -77,9 +77,9 @@ nav ul.list-inline a {
   padding: 20px 10px;
   color: #666666;
   font-family: "pfdintextcondprolight";
-  -moz-transition: all 0.1s 0.2s ease;
-  -o-transition: all 0.1s 0.2s ease;
-  -webkit-transition: all 0.1s 0.2s ease;
+  -moz-transition: all 0.1s 0.1s ease;
+  -o-transition: all 0.1s 0.1s ease;
+  -webkit-transition: all 0.1s 0.1s ease;
 }
 nav ul.list-inline a:hover {
   text-decoration: none;
@@ -88,4 +88,59 @@ nav ul.list-inline a:hover {
 }
 nav ul.list-inline {
   margin-bottom: 0;
+}
+section#main {
+  background: url(../img/main_bg_1920.jpg) no-repeat center center;
+  background-size: cover;
+}
+section#main .main_header h1 {
+  margin-top: 100px;
+  margin-bottom: 90px;
+  font-family: "pfdintextcondprobold";
+  color: #fff;
+  text-transform: uppercase;
+}
+section#main .main_header h1 span {
+  background-color: #67cc67;
+  padding: 5px;
+}
+section#main h3 {
+  text-transform: uppercase;
+  font-family: "pfdintextcondprobold";
+  color: black;
+}
+section#main h3 span {
+  color: #fff;
+}
+section#main .main_buttons {
+  margin-top: 7px;
+  margin-bottom: 100px;
+}
+section#main .main_buttons button#get_measurer {
+  border: none;
+  background-color: #ff9933;
+  padding: 17px 35px;
+  color: white;
+  font-family: "pfdintextcondprobold";
+  font-size: 20px;
+  text-transform: uppercase;
+}
+section#main .main_buttons button#get_measurer:hover {
+  background-color: #d67513;
+}
+section#main .main_buttons button#get_types {
+  border: none;
+  background-color: transparent;
+  padding: 15px 33px;
+  color: black;
+  font-family: "pfdintextcondprobold";
+  text-transform: uppercase;
+  font-size: 20px;
+  border: 2px solid #d67513;
+  margin-left: 20px;
+}
+section#main .main_buttons button#get_types:hover {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #ff9933;
 }
