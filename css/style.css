@@ -235,3 +235,51 @@ section#help button#free_consult:hover {
   background-color: #d67513;
   color: #fff;
 }
+section#offer {
+  padding-top: 70px;
+}
+section#offer h4 {
+  text-transform: uppercase;
+  color: #ff9933;
+  font-family: "pfdintextcondprobold";
+}
+section#offer h3 {
+  text-transform: uppercase;
+  color: #ff9933;
+  font-family: "pfdintextcondprobold";
+}
+section#offer p {
+  font-family: "pfdintextcondprolight";
+  color: #666666;
+  font-size: 22px;
+}
+section#offer input[name="name"] {
+  background: url(../img/name_input.jpg) no-repeat center left 5px;
+  padding: 25px 25px 25px 30px;
+  border-radius: 0px;
+  border: 1px solid #cccccc;
+  font-family: "pfdintextcondprolight";
+  opacity: 0.5;
+}
+section#offer input[name="name"]:hover,
+section#offer input[name="name"]:focus {
+  opacity: 1;
+}
+section#offer input[name="phone"] {
+  background: url(../img/phone_input.jpg) no-repeat center left 5px;
+  padding: 25px 25px 25px 30px;
+  border-radius: 0px;
+  border: 1px solid #cccccc;
+  font-family: "pfdintextcondprolight";
+  opacity: 0.5;
+}
+section#offer input[name="phone"]:hover,
+section#offer input[name="phone"]:focus {
+  opacity: 1;
+}
+section#offer button[type="submit"] {
+  background-color: #ff9933;
+  color: #fff;
+  border: 1px solid #ff9933;
+  padding: 14px 25px;
+}
