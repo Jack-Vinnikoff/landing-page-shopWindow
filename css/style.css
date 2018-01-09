@@ -150,7 +150,6 @@ section#main .main_buttons button#get_types:hover {
   color: #ff9933;
 }
 section#types {
-  border: 1px solid black;
   color: #666666;
   padding-top: 50px;
 }
@@ -205,4 +204,34 @@ section#types .card {
 section#types .card:hover {
   background-color: #fafdfa;
   border: 2px solid #b2e5b2;
+}
+section#help {
+  padding-top: 65px;
+  padding-bottom: 50px;
+}
+section#help h3 {
+  color: #ff9933;
+  text-transform: uppercase;
+  font-family: "pfdintextcondprobold";
+}
+section#help p {
+  color: #666666;
+  font-family: "pfdintextcondprolight";
+  font-size: 18px;
+}
+section#help img {
+  margin-top: 25px;
+}
+section#help button#free_consult {
+  font-family: "pfdintextcondprobold";
+  text-transform: uppercase;
+  border: none;
+  background-color: transparent;
+  color: #ff9933;
+  border: 2px solid #ff9933;
+  padding: 15px 35px;
+}
+section#help button#free_consult:hover {
+  background-color: #d67513;
+  color: #fff;
 }
