@@ -149,3 +149,60 @@ section#main .main_buttons button#get_types:hover {
   background-color: rgba(255, 255, 255, 0.8);
   color: #ff9933;
 }
+section#types {
+  border: 1px solid black;
+  color: #666666;
+  padding-top: 50px;
+}
+section#types .section_header {
+  margin-bottom: 50px;
+}
+section#types h4 {
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-family: "pfdintextcondpromedium";
+}
+section#types button.more_btn {
+  border: none;
+  color: #66cc66;
+  border: 2px solid #66cc66;
+  padding: 10px 27px;
+  background-color: transparent;
+  font-family: "pfdintextcondprobold";
+  text-transform: uppercase;
+  -moz-transition: all 0.1s 0.1s ease;
+  -o-transition: all 0.1s 0.1s ease;
+  -webkit-transition: all 0.1s 0.1s ease;
+}
+section#types button.more_btn:hover {
+  background-color: #66cc66;
+  color: #fff;
+}
+section#types button.offer_btn {
+  border: none;
+  color: #66cc66;
+  border: 2px solid #66cc66;
+  padding: 10px 27px;
+  background-color: #66cc66;
+  color: #fff;
+  font-family: "pfdintextcondprobold";
+  text-transform: uppercase;
+  -moz-transition: all 0.1s 0.1s ease;
+  -o-transition: all 0.1s 0.1s ease;
+  -webkit-transition: all 0.1s 0.1s ease;
+}
+section#types button.offer_btn:hover {
+  background-color: transparent;
+  color: #66cc66;
+}
+section#types .card {
+  -moz-transition: all 0.1s 0.1s ease;
+  -o-transition: all 0.1s 0.1s ease;
+  -webkit-transition: all 0.1s 0.1s ease;
+  border: 2px solid transparent;
+  padding: 5px;
+}
+section#types .card:hover {
+  background-color: #fafdfa;
+  border: 2px solid #b2e5b2;
+}
