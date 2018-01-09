@@ -283,3 +283,10 @@ section#offer button[type="submit"] {
   border: 1px solid #ff9933;
   padding: 14px 25px;
 }
+section#feedBack .section_header {
+  margin-bottom: 50px;
+}
+section#feedBack .item {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
