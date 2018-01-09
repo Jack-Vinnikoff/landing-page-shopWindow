@@ -28,6 +28,11 @@ a:visited,
 a:active {
   text-decoration: none;
 }
+.section_header h2 {
+  text-transform: uppercase;
+  color: #666666;
+  font-family: "pfdintextcondprobold";
+}
 header {
   color: #666666;
   padding-top: 25px;
