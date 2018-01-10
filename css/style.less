@@ -535,3 +535,54 @@ footer {
 .modal-dialog {
   margin-top: 10%;
 }
+.header_modal {
+  h4 {
+    padding-top: 10px;
+    text-transform: uppercase;
+    color: #666666;
+    .bold;
+  }
+}
+.modal-header {
+  margin-top: -50px;
+  border-bottom: none;
+  margin-right: -30px;
+  .close {
+    color: #fff;
+    opacity: 0.9;
+    text-shadow: none;
+  }
+}
+.modal-content {
+  border-radius: 0;
+  input[name="name"] {
+    background: url(../img/name_input.jpg)no-repeat center left 5px;
+    padding: 25px 25px 25px 30px;
+    border-radius: 0px;
+    border: 1px solid #cccccc;
+    .light;
+    opacity: 0.5;
+    &:hover, &:focus {
+      opacity: 1;
+    }
+  }
+  input[name="phone"] {
+    margin-top: 15px;
+    background: url(../img/phone_input.jpg)no-repeat center left 5px;
+    padding: 25px 25px 25px 30px;
+    border-radius: 0px;
+    border: 1px solid #cccccc;
+    .light;
+    opacity: 0.5;
+    &:hover, &:focus {
+      opacity: 1;
+    }
+  }
+  button[type="submit"] {
+    margin-top: 15px;
+    background-color: #ff9933;
+    color: #fff;
+    border: 1px solid #ff9933;
+    padding: 14px 25px;
+  }
+}
