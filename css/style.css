@@ -318,3 +318,42 @@ section#feedBack .carousel-indicators li {
 section#feedBack .audio {
   margin: 10px 0 0 10px;
 }
+section#special_service {
+  color: #fff;
+  margin-top: 40px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  background: url(../img/bg_special.jpg) top right -70px no-repeat;
+  background-size: cover;
+}
+section#special_service .special_text h4 {
+  text-transform: uppercase;
+  font-family: "pfdintextcondprolight";
+  margin-bottom: 0px;
+}
+section#special_service h2 {
+  text-transform: uppercase;
+  margin-top: 0px;
+  font-family: "pfdintextcondpromedium";
+}
+section#special_service h3 {
+  margin-top: 50px;
+  text-transform: uppercase;
+  font-family: "pfdintextcondpromedium";
+}
+section#special_service h4 {
+  font-family: "pfdintextcondprolight";
+  margin-bottom: 50px;
+}
+section#special_service button {
+  border: none;
+  background-color: #ff9933;
+  padding: 17px 35px;
+  color: white;
+  font-family: "pfdintextcondprobold";
+  font-size: 20px;
+  text-transform: uppercase;
+}
+section#special_service button:hover {
+  background-color: #d67513;
+}
