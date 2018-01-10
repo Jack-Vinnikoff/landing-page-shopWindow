@@ -287,6 +287,34 @@ section#feedBack .section_header {
   margin-bottom: 50px;
 }
 section#feedBack .item {
+  height: 350px;
   background-color: #f8f8f8;
   padding: 20px;
+}
+section#feedBack .item h5 {
+  padding-top: 20px;
+  font-family: "pfdintextcondpromedium";
+  color: #666666;
+  font-size: 20px;
+}
+section#feedBack .item a {
+  font-family: "pfdintextcondpromedium";
+  font-size: 18px;
+}
+section#feedBack .item p {
+  font-family: "pfdintextcondprolight";
+  margin-top: 30px;
+  font-size: 16px;
+}
+section#feedBack .carousel-indicators {
+  bottom: -30px;
+}
+section#feedBack .carousel-indicators .active {
+  background-color: #ff9933;
+}
+section#feedBack .carousel-indicators li {
+  border: 1px solid #ff9933;
+}
+section#feedBack .audio {
+  margin: 10px 0 0 10px;
 }
