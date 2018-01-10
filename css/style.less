@@ -398,3 +398,61 @@ section#special_service {
     }
   }
 }
+
+//========================= Футер ===========================
+footer {
+  background-color: #666666;
+  border: 1px solid black;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color: #fff;
+  h2 {
+    margin-left: -15px;
+    .bold;
+    text-transform: uppercase;
+  }
+  address {
+    margin-top: 10px;
+    p#address {
+      margin-bottom: 0px;
+      text-transform: uppercase;
+      .light;
+      &:before {
+        content: '';
+        width: 13px;
+        height: 13px;
+        background: url(../img/map_marker.png) no-repeat center center;
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 3px;
+        margin-right: 3px;
+      }
+    }
+    p#kazan {
+      font-size: 20px;
+      .light;
+      margin-top: 0px;
+    }
+
+  }
+  p#phone_footer {
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    .light;
+    &:before {
+      content: '';
+      width: 13px;
+      height: 13px;
+      background: url(../img/phone_marker.png) no-repeat center center;
+      display: inline-block;
+      vertical-align: middle;
+      margin-bottom: 3px;
+      margin-right: 3px;
+    }
+  }
+  p#number {
+    font-size: 20px;
+    .light;
+    margin-top: 0px;
+  }
+}
