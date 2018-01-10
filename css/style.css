@@ -33,6 +33,9 @@ a:active {
   color: #666666;
   font-family: "pfdintextcondprobold";
 }
+button:focus {
+  outline: none;
+}
 header {
   color: #666666;
   padding-top: 25px;
@@ -478,4 +481,7 @@ footer .fox_kids h4 {
 footer .fox_kids a {
   color: #fff;
   font-family: "pfdintextcondprobold";
+}
+.modal-dialog {
+  margin-top: 10%;
 }

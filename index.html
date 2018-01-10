@@ -71,7 +71,7 @@
                 <h3>Закажите выезд замерщика на дом. <span>Это бесплатно</span></h3>
             </div>
             <div class="row main_buttons">
-                <button data-toggle="modal" href="#" id="get_measurer">Вызвать замерщика</button>
+                <button data-toggle="modal" href="#get_measurer_modal" id="get_measurer">Вызвать замерщика</button>
                 <a href="#types"><button id="get_types">Выбрать жалюзи</button></a>
             </div>
         </div>
@@ -405,7 +405,23 @@
 
     </footer>
 
-    <!-- Modal --!>
+    <!-- Modal -->
+    <div class="modal fade" id="get_measurer_modal" tabindex="-1" role="dialog"
+    aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- fotorama.css & fotorama.js. -->
     <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
