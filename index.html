@@ -99,7 +99,7 @@
                         <img src="img/types-2.jpg" alt="Вертикальные жалюзи" class="img-responsive center-block">
                         <h4>Вертикальные</h4>
                         <br>
-                        <button class="more_btn" data-toggle="modal" href="#">Подробнее</button>
+                        <button class="more_btn" data-toggle="modal" href="#more_vertical">Подробнее</button>
                         <button class="offer_btn" data-toggle="modal" href="#">Заказать</button>
                     </div>
                 </div>
@@ -440,49 +440,105 @@
     <!-- Modal  Подробнее (Горизонтальные жалюзи)-->
     <div class="modal fade" id="more_horizontal" tabindex="-1" role="dialog"
          aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <div class="more_types">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="header_modal_info">
+                                <h4>Горизонтальные жалюзи</h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <div class="fotorama">
+                                    <img src="img/types/horizontal/1.jpg" alt="">
+                                    <img src="img/types/horizontal/2.jpg" alt="">
+                                    <img src="img/types/horizontal/3.jpg" alt="">
+                                    <img src="img/types/horizontal/4.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-7">
+                                <p>Один популярных видов жалюзи - это горизонтальные жалюзи.
+                                    Чаще всего покупатели предпочитают алюминиевые жалюзи.
+                                     <br><br>
+                                    Это по-настоящему модная и надежная замена обычным шторам и занавескам.
+                                    Горизонтальные жалюзи отлично справляются со световым потоком,
+                                    они прекрасно смотрятся на кухне, в офисе или на балконе.</p>
+                                <br>
+                                <p><span>ОТ 799 рублей</span></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <form action="#">
+                                <div class="col-xs-4">
+                                    <input name="name" type="text" required placeholder="Имя..." class="form-control form_input">
+                                </div>
+                                <div class="col-xs-4">
+                                    <input  name="phone" mtype="text" required placeholder="Телефон" class="form-control form_input">
+                                </div>
+                                <div class="col-xs-4">
+                                    <button type="submit">Вызвать замерщика</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                 </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="header_modal_info">
-                            <h4>Горизонтальные жалюзи</h4>
-                        </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal  Подробнее (Вертикальные жалюзи)-->
+    <div class="modal fade" id="more_vertical" tabindex="-1" role="dialog"
+         aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="more_types">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-5">
-                            <div class="fotorama">
-                                <img src="img/types/horizontal/1.jpg" alt="">
-                                <img src="img/types/horizontal/2.jpg" alt="">
-                                <img src="img/types/horizontal/3.jpg" alt="">
-                                <img src="img/types/horizontal/4.jpg" alt="">
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="header_modal_info">
+                                <h4>Вертикальные жалюзи</h4>
                             </div>
                         </div>
-                        <div class="col-sm-7">
-                            <p>Один популярных видов жалюзи - это горизонтальные жалюзи.
-                                Чаще всего покупатели предпочитают алюминиевые жалюзи.
-                                 <br><br>
-                                Это по-настоящему модная и надежная замена обычным шторам и занавескам.
-                                Горизонтальные жалюзи отлично справляются со световым потоком,
-                                они прекрасно смотрятся на кухне, в офисе или на балконе.</p>
-                            <br>
-                            <p><span>ОТ 799 рублей</span></p>
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <div class="fotorama">
+                                    <img src="img/types/vertical/1.jpg" alt="">
+                                    <img src="img/types/vertical/2.jpg" alt="">
+                                    <img src="img/types/vertical/3.jpg" alt="">
+                                    <img src="img/types/vertical/4.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-sm-7">
+                                <p>Являются популярным видом жалюзи из-за своей универсальности
+                                    и простоты конструкции.
+                                    <br><br>
+                                    В отличии от штор, позволяют плавно регулировать поток света в помещении.
+                                    <br><br>
+                                    В отличии от штор, позволяют плавно регулировать поток света в помещении.
+                                </p>
+                                <br>
+                                <p><span>ОТ 799 рублей</span></p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <form action="#">
-                            <div class="col-xs-4">
-                                <input name="name" type="text" required placeholder="Имя..." class="form-control form_input">
-                            </div>
-                            <div class="col-xs-4">
-                                <input  name="phone" mtype="text" required placeholder="Телефон" class="form-control form_input">
-                            </div>
-                            <div class="col-xs-4">
-                                <button type="submit">Вызвать замерщика</button>
-                            </div>
-                        </form>
+                        <div class="row">
+                            <form action="#">
+                                <div class="col-xs-4">
+                                    <input name="name" type="text" required placeholder="Имя..." class="form-control form_input">
+                                </div>
+                                <div class="col-xs-4">
+                                    <input  name="phone" mtype="text" required placeholder="Телефон" class="form-control form_input">
+                                </div>
+                                <div class="col-xs-4">
+                                    <button type="submit">Вызвать замерщика</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
