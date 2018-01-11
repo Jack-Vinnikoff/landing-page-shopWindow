@@ -505,6 +505,7 @@ footer .fox_kids a {
   border-radius: 0;
 }
 .modal-content input[name="name"] {
+  margin-top: 15px;
   background: url(../img/name_input.jpg) no-repeat center left 5px;
   padding: 25px 25px 25px 30px;
   border-radius: 0px;
@@ -535,4 +536,24 @@ footer .fox_kids a {
   color: #fff;
   border: 1px solid #ff9933;
   padding: 14px 25px;
+}
+.modal-content p {
+  font-family: "pfdintextcondprolight";
+  font-size: 18px;
+}
+.modal-content span {
+  font-family: "pfdintextcondprobold";
+  color: #ff9933;
+  font-size: 24px;
+}
+#more_horizontal .modal-dialog {
+  width: 60%;
+}
+.header_modal_info h4 {
+  margin-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  color: #666666;
+  font-family: "pfdintextcondprobold";
 }
