@@ -73,6 +73,11 @@ header .phone_number a:before {
 header .phone_number p {
   font-family: "pfdintextcondprolight";
 }
+header .logotype h3 {
+  text-transform: uppercase;
+  font-family: "pfdintextcondprobold";
+  color: #666666;
+}
 nav {
   background-color: #fafdfa;
 }
@@ -412,6 +417,10 @@ footer p#number {
   font-family: "pfdintextcondprolight";
   margin-top: 0px;
 }
+footer p#number span {
+  padding-top: 17px;
+  font-size: 17px;
+}
 footer .social {
   margin-top: 20px;
 }
@@ -440,4 +449,33 @@ footer button#get_answer {
 footer button#get_answer:hover {
   background-color: #fff;
   color: #666666;
+}
+footer .details_row {
+  margin-top: 30px;
+}
+footer .details h5 {
+  font-family: "pfdintextcondprobold";
+  font-size: 20px;
+}
+footer .details p {
+  text-transform: uppercase;
+  font-family: "pfdintextcondprolight";
+}
+footer .policy {
+  text-align: center;
+}
+footer .policy a {
+  color: #fff;
+  border-bottom: 1px dashed #fff;
+}
+footer .fox_kids {
+  text-align: right;
+}
+footer .fox_kids h4 {
+  font-family: "pfdintextcondprobold";
+  text-transform: uppercase;
+}
+footer .fox_kids a {
+  color: #fff;
+  font-family: "pfdintextcondprobold";
 }
