@@ -342,7 +342,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-12">
-                    <button data-toggle="modal" href="#">Заказать чистку жалюзи</button>
+                    <button data-toggle="modal" href="#clean_blinds">Заказать чистку жалюзи</button>
                 </div>
 
             </div>
@@ -706,6 +706,37 @@
                             </div>
                             <div class="col-xs-12">
                                 <button type="submit">Заказать жалюзи</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal  Чистка жалюзи-->
+    <div class="modal fade" id="clean_blinds" tabindex="-1" role="dialog"
+         aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="row">
+                        <div class="header_modal">
+                            <h4>Для заказа чистки<br>оставьте свои данные</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <form action="#">
+                            <div class="col-xs-12">
+                                <input name="name" type="text" required placeholder="Имя..." class="form-control form_input">
+                            </div>
+                            <div class="col-xs-12">
+                                <input  name="phone" mtype="text" required placeholder="Телефон" class="form-control form_input">
+                            </div>
+                            <div class="col-xs-12">
+                                <button type="submit">Заказать чистку</button>
                             </div>
                         </form>
                     </div>
