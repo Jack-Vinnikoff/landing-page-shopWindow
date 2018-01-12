@@ -530,6 +530,20 @@ footer .fox_kids a {
 .modal-content input[name="phone"]:focus {
   opacity: 1;
 }
+.modal-content textarea {
+  width: 100%;
+  margin-top: 15px;
+  padding: 25px;
+  padding-left: 30px;
+  border-radius: 0px;
+  border: 1px solid #cccccc;
+  font-family: "pfdintextcondprolight";
+  opacity: 0.5;
+}
+.modal-content textarea:hover,
+.modal-content textarea:focus {
+  opacity: 1;
+}
 .modal-content button[type="submit"] {
   margin-top: 15px;
   background-color: #ff9933;

@@ -379,7 +379,7 @@
                         <div class="social_icon">
                             <a href="#"><img src="img/insta.png" alt=""></a>
                         </div>
-                        <button id="get_answer" data-toggle="modal" href="#">Задать вопрос</button>
+                        <button id="get_answer" data-toggle="modal" href="#get_question">Задать вопрос</button>
                     </div>
                 </div>
             </div>
@@ -737,6 +737,42 @@
                             </div>
                             <div class="col-xs-12">
                                 <button type="submit">Заказать чистку</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal  Задать вопрос-->
+    <div class="modal fade" id="get_question" tabindex="-1" role="dialog"
+         aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="row">
+                        <div class="header_modal">
+                            <h4>Задайте вопрос, и наш<br>менеджер<br>
+                            с радостью ответит на него
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <form action="#">
+                            <div class="col-xs-12">
+                                <input name="name" type="text" required placeholder="Имя..." class="form-control form_input">
+                            </div>
+                            <div class="col-xs-12">
+                                <input  name="phone" mtype="text" required placeholder="Телефон" class="form-control form_input">
+                            </div>
+                            <div class="col-xs-12">
+                                <textarea name="question" placeholder="Ваш вопрос" cols="20" rows="5" id=""></textarea>
+                            </div>
+                            <div class="col-xs-12">
+                                <button type="submit">Задать вопрос</button>
                             </div>
                         </form>
                     </div>
