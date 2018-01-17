@@ -183,17 +183,18 @@
                     <h3>Закажите установку жалюзи до 29.06.2018</h3>
                     <p>и получите в подарок москитную сетку для окна</p>
                     <div class="row">
+                        <form action="send.php" method="post">
                         <div class="col-md-4">
-                            <form action="#">
+                            <input type="hidden" name="what" value="Участвовать в акции">
                             <input name="name" type="text" required placeholder="Имя..." class="form-control form_input">
                         </div>
                         <div class="col-md-4">
-                            <input  name="phone" mtype="text" required placeholder="Телефон" class="form-control form_input">
+                            <input  name="phone" id="phone-1" mtype="text" required placeholder="Телефон" class="form-control form_input">
                         </div>
                         <div class="col-md-4">
                             <button type="submit">Заказать жалюзи</button>
-                            </form>
                         </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -420,12 +421,13 @@
                         </div>
                     </div>
                     <div class="row">
-                        <form action="#">
+                        <form action="send.php" method="post">
                             <div class="col-xs-12">
+                                <input type="hidden" name="what" value="Вызвать замерщика">
                                 <input name="name" type="text" required placeholder="Имя..." class="form-control form_input">
                             </div>
                             <div class="col-xs-12">
-                                <input  name="phone" mtype="text" required placeholder="Телефон" class="form-control form_input">
+                                <input  name="phone" id="phone-2" mtype="text" required placeholder="Телефон" class="form-control form_input">
                             </div>
                             <div class="col-xs-12">
                                 <button type="submit">Вызвать замерщика</button>
@@ -473,12 +475,13 @@
                             </div>
                         </div>
                         <div class="row">
-                            <form action="#">
+                            <form action="send.php" method="post">
                                 <div class="col-xs-4">
+                                    <input type="hidden" name="what" value="Горизонтальные жалюзи">
                                     <input name="name" type="text" required placeholder="Имя..." class="form-control form_input">
                                 </div>
                                 <div class="col-xs-4">
-                                    <input  name="phone" mtype="text" required placeholder="Телефон" class="form-control form_input">
+                                    <input  name="phone" id="phone-3" mtype="text" required placeholder="Телефон" class="form-control form_input">
                                 </div>
                                 <div class="col-xs-4">
                                     <button type="submit">Заказать жалюзи</button>
@@ -876,10 +879,6 @@
             </div>
         </div>
     </div>
-
-
-
-
     <!-- fotorama.css & fotorama.js. -->
     <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
