@@ -40,6 +40,7 @@ header {
   color: #666666;
   padding-top: 25px;
   padding-bottom: 20px;
+  height: 110px;
 }
 header .descript h4 {
   font-family: "pfdintextcondpromedium";
@@ -83,6 +84,11 @@ header .logotype h3 {
 }
 nav {
   background-color: #fafdfa;
+  top: 110px;
+  /*высота шапки в пикселях*/
+  position: fixed;
+  z-index: 100;
+  width: 100%;
 }
 nav ul.list-inline a {
   display: inline-block;

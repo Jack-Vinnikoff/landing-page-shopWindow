@@ -35,7 +35,7 @@
             </div>
         </div>
     </header>
-    <nav>
+    <nav id="top_nav">
         <div class="container">
             <div class="row">
                 <ul class="list-inline">
@@ -886,6 +886,33 @@
             </div>
         </div>
     </div>
+
+    <!-- закрепляем меню сверху-->
+    <script>
+        var h_hght = 110; // высота шапки
+        var h_mrg = 0;    // отступ когда шапка уже не видна
+
+        $(function(){
+
+            var elem = $('#top_nav');
+            var top = $(this).scrollTop();
+
+            if(top > h_hght){
+                elem.css('top', h_mrg);
+            }
+
+            $(window).scroll(function(){
+                top = $(this).scrollTop();
+
+                if (top+h_mrg < h_hght) {
+                    elem.css('top', (h_hght-top));
+                } else {
+                    elem.css('top', h_mrg);
+                }
+            });
+
+        });
+    </script>
     <!-- fotorama.css & fotorama.js. -->
     <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
