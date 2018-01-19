@@ -63,16 +63,16 @@
     </nav>
     <section id="main">
         <div class="container">
-            <div class="row main_header">
+            <div class="row wow fadeInUp main_header">
                 <h1><span>Установка жалюзи в вашей квартире</span> <br><span>за 2 часа с полной
                     гарантией</span> <br><span> и бесплатной доставкой</span></h1>
             </div>
-            <div class="row">
+            <div class="row wow fadeInLeft">
                 <h3>Закажите выезд замерщика на дом. <span>Это бесплатно</span></h3>
             </div>
             <div class="row main_buttons">
-                <button data-toggle="modal" href="#get_measurer_modal" id="get_measurer">Вызвать замерщика</button>
-                <a href="#types"><button id="get_types">Выбрать жалюзи</button></a>
+                <button data-toggle="modal" class="wow fadeInLeft" data-wow-delay="0.5s"href="#get_measurer_modal" id="get_measurer">Вызвать замерщика</button>
+                <a href="#types"><button class="wow fadeInLeft" data-wow-delay="0.6s" id="get_types">Выбрать жалюзи</button></a>
             </div>
         </div>
     </section>
@@ -80,13 +80,13 @@
     <section id="types">
         <div class="container">
             <div class="row">
-                <div class="section_header text-center">
+                <div class="section_header text-center wow fadInUp">
                     <h2>Виды жалюзи</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-3">
-                    <div class="card">
+                    <div class="card wow bounceInUp" data-wow-delay="0.2s">
                         <img src="img/types-1.jpg" alt="Горизонтальные жалюзи" class="img-responsive center-block">
                         <h4>Горизонтальные жалюзи</h4>
                         <br>
@@ -95,7 +95,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card">
+                    <div class="card wow bounceInUp" data-wow-delay="0.3s">
                         <img src="img/types-2.jpg" alt="Вертикальные жалюзи" class="img-responsive center-block">
                         <h4>Вертикальные</h4>
                         <br>
@@ -104,7 +104,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card">
+                    <div class="card wow bounceInUp" data-wow-delay="0.4s">
                         <img src="img/types-3.jpg" alt="Рулонные жалюзи" class="img-responsive center-block">
                         <h4>Рулонные жалюзи</h4>
                         <br>
@@ -113,7 +113,7 @@
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card">
+                    <div class="card wow bounceInUp" data-wow-delay="0.5s">
                         <img src="img/types-4.jpg" alt="Жалюзи плиссе" class="img-responsive center-block">
                         <h4>Жалюзи плиссе</h4>
                         <br>
@@ -146,7 +146,7 @@
     <section id="portfolio">
         <div class="container">
             <div class="row">
-                <div class="section_header text-center">
+                <div class="section_header wow fadeInUp text-center">
                     <h2>Наши работы</h2>
                 </div>
             </div>
@@ -204,7 +204,7 @@
     <section id="feedBack">
         <div class="container">
             <div class="row">
-                <div class="section_header text-center">
+                <div class="section_header wow fadeInUp text-center">
                     <h2>Отзывы о нашей работе</h2>
                 </div>
             </div>
@@ -927,6 +927,12 @@
                     $('body,html').animate({scrollTop: top}, 500);
                 });
             });
+    </script>
+    <!-- Подключение файлов анимации при прокрутке-->
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
     </script>
     <!-- fotorama.css & fotorama.js. -->
     <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
