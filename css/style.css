@@ -676,4 +676,10 @@ footer .fox_kids a {
     display: block;
     margin: 0 auto;
   }
+  section#types .card {
+    padding-bottom: 10px;
+  }
+  section#types button {
+    font-size: 12px;
+  }
 }
