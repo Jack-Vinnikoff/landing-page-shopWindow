@@ -3,7 +3,7 @@
   padding: 10px 15px;
   border-radius: 5px;
   color: #666666;
-  margin-left: -40px;
+  margin-left: -20px;
 }
 .dropdown-toggle:hover {
   background-color: #666666;
@@ -14,14 +14,51 @@
   margin-top: 10px;
   font-size: 18px;
 }
+.phone_mobile {
+  padding-right: 0px;
+}
 .phone_mobile h3 {
+  margin: 10px 0px 10px 10px;
   font-size: 14px;
   color: #666666;
+  text-align: right;
 }
 @media (min-width: 0px) and (max-width: 320px) {
   nav {
     top: 0px;
-    border: 1px solid black;
     padding-top: 10px;
+    height: 60px;
+  }
+  section#main .main_header {
+    padding-top: 40px;
+  }
+  section#main .main_header h1 {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  section#main .main_header h1 span {
+    line-height: 1.7;
+    padding: 10px;
+  }
+  section#main h3 {
+    font-size: 13px;
+    text-align: center;
+  }
+  section#main .main_buttons button {
+    display: block;
+    margin: 0 auto;
+  }
+  section#main .main_buttons button#get_measurer {
+    padding: 10px 20px;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  section#main .main_buttons button#get_types {
+    padding: 10px 27px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
   }
 }
