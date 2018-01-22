@@ -67,6 +67,13 @@
   section#types button {
     font-size: 12px;
   }
+  section#help {
+    text-align: center;
+  }
+  section#help button {
+    display: block;
+    margin: 0 auto;
+  }
   section#offer {
     text-align: center;
   }
@@ -75,5 +82,15 @@
   }
   section#offer button {
     margin-top: 10px;
+  }
+  section#feedBack .fotorama {
+    display: none;
+  }
+  section#feedBack .item {
+    text-align: center;
+    height: 600px;
+  }
+  section#feedBack .item p {
+    font-size: 14px;
   }
 }
