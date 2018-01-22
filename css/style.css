@@ -708,4 +708,10 @@ footer .fox_kids a {
   section#feedBack .item p {
     font-size: 14px;
   }
+  footer {
+    text-align: center;
+  }
+  footer .fox_kids {
+    text-align: center;
+  }
 }
