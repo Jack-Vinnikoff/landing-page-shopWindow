@@ -682,4 +682,13 @@ footer .fox_kids a {
   section#types button {
     font-size: 12px;
   }
+  section#offer {
+    text-align: center;
+  }
+  section#offer input {
+    margin-top: 5px;
+  }
+  section#offer button {
+    margin-top: 10px;
+  }
 }
