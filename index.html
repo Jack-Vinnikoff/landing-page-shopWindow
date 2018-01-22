@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="hidden-xs">
         <div class="container">
             <div class="row">
                 <div class="col-sm-3 logotype">
@@ -35,7 +35,7 @@
             </div>
         </div>
     </header>
-    <nav id="top_nav">
+    <nav class="hidden-xs" id="top_nav">
         <div class="container">
             <div class="row">
                 <ul class="list-inline">
@@ -61,6 +61,30 @@
             </div>
         </div>
     </nav>
+
+    <nav class="visible-xs-block">
+        <div class="container">
+            <div class="col-xs-4 text-center">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="#main">Главная</a></li>
+                    <li><a href="#types">Виды жалюзи</a></li>
+                    <li><a href="#portfolio">Наши работы</a></li>
+                    <li><a href="#offer">Акции</a></li>
+                    <li><a href="#feedBack">Отзывы</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-7 phone_mobile col-offset-1">
+                <a href="tel:+788432402540">
+                    <h3>8 (843) 240-25-40</h3>
+                </a>
+            </div>
+        </div>
+    </nav>
+
     <section id="main">
         <div class="container">
             <div class="row wow fadeInUp main_header">
@@ -934,6 +958,8 @@
     <script>
         new WOW().init();
     </script>
+    <!--Подключение иконок FONTAWESOME -->
+    <script src="https://use.fontawesome.com/55955874b3.js"></script>
     <!-- fotorama.css & fotorama.js. -->
     <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->

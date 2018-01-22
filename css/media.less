@@ -1,6 +1,38 @@
 //================ Адаптив =============
+.dropdown-toggle {
+  border: 1px solid #000000;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #666666;
+  margin-left: -20px;
+  &:hover {
+    background-color: #666666;
+    color: #ffffff;
+    border: none;
+  }
+  i {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+}
+.phone_mobile {
+  padding-right: 0px;
+  h3 {
+    margin: 10px 0px 10px 10px;
+    font-size: 14px;
+    color: #666666;
+    text-align: right;
+    .bold;
+  }
+
+}
+
 @media (min-width: 0px) and (max-width: 320px) {
-  
+  nav {
+    top: 0px;
+    padding-top: 10px;
+    height: 60px;
+  }
 }
 
 @media (min-width: 321px) and (max-width: 480px) {

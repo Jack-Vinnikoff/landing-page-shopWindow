@@ -1,0 +1,27 @@
+.dropdown-toggle {
+  border: 1px solid #000000;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #666666;
+  margin-left: -40px;
+}
+.dropdown-toggle:hover {
+  background-color: #666666;
+  color: #ffffff;
+  border: none;
+}
+.dropdown-toggle i {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.phone_mobile h3 {
+  font-size: 14px;
+  color: #666666;
+}
+@media (min-width: 0px) and (max-width: 320px) {
+  nav {
+    top: 0px;
+    border: 1px solid black;
+    padding-top: 10px;
+  }
+}
