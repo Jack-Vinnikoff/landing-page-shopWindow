@@ -159,7 +159,7 @@ section#main .main_buttons button#get_types {
   margin-left: 20px;
 }
 section#main .main_buttons button#get_types:hover {
-  border: none;
+  border: 2px solid #f8f8f8;
   background-color: rgba(255, 255, 255, 0.8);
   color: #ff9933;
 }
@@ -707,6 +707,128 @@ footer .fox_kids a {
   }
   section#feedBack .item p {
     font-size: 14px;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .fox_kids {
+    text-align: center;
+  }
+  section#special_service {
+    background: #b3a9a7;
+  }
+  section#special_service h3 {
+    font-size: 22px;
+  }
+  section#special_service button {
+    padding: 17px 35px;
+    font-size: 14px;
+    display: block;
+    margin: 0 auto;
+  }
+  .more_types .modal-dialog {
+    width: 90%;
+  }
+  .more_types h4 {
+    margin-left: : 0px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .more_types p {
+    font-size: 14px;
+  }
+  #policy .modal-dialog {
+    width: 90%;
+  }
+  #policy .modal-dialog h4 {
+    font-size: 14px;
+    text-align: center;
+  }
+  #policy .policy_text {
+    padding-right: 10px;
+  }
+  #policy .policy_text ul {
+    padding: 0px;
+  }
+  #policy .policy_text p {
+    font-size: 14px;
+  }
+  #policy .btn_mobile_version {
+    text-align: center;
+  }
+  #policy .btn_mobile_version button {
+    width: 70%;
+  }
+}
+@media (min-width: 321px) and (max-width: 480px) {
+  nav {
+    top: 0px;
+    padding-top: 10px;
+    height: 60px;
+  }
+  section#main .main_header {
+    padding-top: 40px;
+  }
+  section#main .main_header h1 {
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  section#main .main_header h1 span {
+    line-height: 1.7;
+    padding: 10px;
+  }
+  section#main h3 {
+    font-size: 13px;
+    text-align: center;
+  }
+  section#main .main_buttons button {
+    display: block;
+    margin: 0 auto;
+  }
+  section#main .main_buttons button#get_measurer {
+    padding: 15px 27px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  section#main .main_buttons button#get_types {
+    padding: 15px 34px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+  }
+  section#types .card {
+    padding-bottom: 10px;
+  }
+  section#types button {
+    font-size: 12px;
+  }
+  section#help {
+    text-align: center;
+  }
+  section#help button {
+    display: block;
+    margin: 0 auto;
+  }
+  section#offer {
+    text-align: center;
+  }
+  section#offer input {
+    margin-top: 5px;
+  }
+  section#offer button {
+    margin-top: 10px;
+  }
+  section#feedBack .fotorama {
+    display: none;
+  }
+  section#feedBack .item {
+    text-align: center;
+    height: 600px;
+  }
+  section#feedBack .item p {
+    font-size: 16px;
   }
   footer {
     text-align: center;
