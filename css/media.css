@@ -111,11 +111,4 @@
     display: block;
     margin: 0 auto;
   }
-  .more_types .modal-dialog {
-    width: 90%;
-  }
-  .more_types h4 {
-    font-size: 14px;
-    text-align: center;
-  }
 }

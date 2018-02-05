@@ -745,10 +745,18 @@ footer .fox_kids a {
     text-align: center;
   }
   #policy .policy_text {
-    padding-left: 0px;
     padding-right: 10px;
+  }
+  #policy .policy_text ul {
+    padding: 0px;
   }
   #policy .policy_text p {
     font-size: 14px;
+  }
+  #policy .btn_mobile_version {
+    text-align: center;
+  }
+  #policy .btn_mobile_version button {
+    width: 70%;
   }
 }
